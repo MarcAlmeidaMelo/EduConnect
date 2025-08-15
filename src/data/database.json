@@ -1,0 +1,266 @@
+{
+  "alunos": [
+    {
+      "id_alunos": "001",
+      "nome_do_aluno": "Ana Silva Santos",
+      "serie": "1º Ano",
+      "email_responsavel": "jose.silva@email.com",
+      "telefone_responsavel": "(11) 99999-1001",
+      "responsavel_nome": "José Silva Santos"
+    },
+    {
+      "id_alunos": "002",
+      "nome_do_aluno": "Bruno Costa Lima",
+      "serie": "1º Ano",
+      "email_responsavel": "maria.costa@email.com",
+      "telefone_responsavel": "(11) 99999-1002",
+      "responsavel_nome": "Maria Costa Lima"
+    },
+    {
+      "id_alunos": "003",
+      "nome_do_aluno": "Carla Oliveira",
+      "serie": "1º Ano",
+      "email_responsavel": "pedro.oliveira@email.com",
+      "telefone_responsavel": "(11) 99999-1003",
+      "responsavel_nome": "Pedro Oliveira"
+    },
+    {
+      "id_alunos": "004",
+      "nome_do_aluno": "Daniel Ferreira",
+      "serie": "1º Ano",
+      "email_responsavel": "lucia.ferreira@email.com",
+      "telefone_responsavel": "(11) 99999-1004",
+      "responsavel_nome": "Lúcia Ferreira"
+    },
+    {
+      "id_alunos": "005",
+      "nome_do_aluno": "Elena Rodrigues",
+      "serie": "1º Ano",
+      "email_responsavel": "carlos.rodrigues@email.com",
+      "telefone_responsavel": "(11) 99999-1005",
+      "responsavel_nome": "Carlos Rodrigues"
+    },
+    {
+      "id_alunos": "006",
+      "nome_do_aluno": "Felipe Martins",
+      "serie": "2º Ano",
+      "email_responsavel": "ana.martins@email.com",
+      "telefone_responsavel": "(11) 99999-2001",
+      "responsavel_nome": "Ana Martins"
+    },
+    {
+      "id_alunos": "007",
+      "nome_do_aluno": "Gabriela Santos",
+      "serie": "2º Ano",
+      "email_responsavel": "marcos.santos@email.com",
+      "telefone_responsavel": "(11) 99999-2002",
+      "responsavel_nome": "Marcos Santos"
+    },
+    {
+      "id_alunos": "008",
+      "nome_do_aluno": "Henrique Lima",
+      "serie": "2º Ano",
+      "email_responsavel": "paula.lima@email.com",
+      "telefone_responsavel": "(11) 99999-2003",
+      "responsavel_nome": "Paula Lima"
+    },
+    {
+      "id_alunos": "009",
+      "nome_do_aluno": "Isabela Costa",
+      "serie": "2º Ano",
+      "email_responsavel": "ricardo.costa@email.com",
+      "telefone_responsavel": "(11) 99999-2004",
+      "responsavel_nome": "Ricardo Costa"
+    },
+    {
+      "id_alunos": "010",
+      "nome_do_aluno": "João Pedro Silva",
+      "serie": "2º Ano",
+      "email_responsavel": "fernanda.silva@email.com",
+      "telefone_responsavel": "(11) 99999-2005",
+      "responsavel_nome": "Fernanda Silva"
+    },
+    {
+      "id_alunos": "011",
+      "nome_do_aluno": "Kelly Oliveira",
+      "serie": "3º Ano",
+      "email_responsavel": "antonio.oliveira@email.com",
+      "telefone_responsavel": "(11) 99999-3001",
+      "responsavel_nome": "Antônio Oliveira"
+    },
+    {
+      "id_alunos": "012",
+      "nome_do_aluno": "Lucas Ferreira",
+      "serie": "3º Ano",
+      "email_responsavel": "beatriz.ferreira@email.com",
+      "telefone_responsavel": "(11) 99999-3002",
+      "responsavel_nome": "Beatriz Ferreira"
+    },
+    {
+      "id_alunos": "013",
+      "nome_do_aluno": "Mariana Rodrigues",
+      "serie": "3º Ano",
+      "email_responsavel": "rafael.rodrigues@email.com",
+      "telefone_responsavel": "(11) 99999-3003",
+      "responsavel_nome": "Rafael Rodrigues"
+    },
+    {
+      "id_alunos": "014",
+      "nome_do_aluno": "Nicolas Martins",
+      "serie": "3º Ano",
+      "email_responsavel": "claudia.martins@email.com",
+      "telefone_responsavel": "(11) 99999-3004",
+      "responsavel_nome": "Cláudia Martins"
+    },
+    {
+      "id_alunos": "015",
+      "nome_do_aluno": "Olivia Santos",
+      "serie": "3º Ano",
+      "email_responsavel": "eduardo.santos@email.com",
+      "telefone_responsavel": "(11) 99999-3005",
+      "responsavel_nome": "Eduardo Santos"
+    },
+    {
+      "id_alunos": "016",
+      "nome_do_aluno": "Pedro Lima",
+      "serie": "4º Ano",
+      "email_responsavel": "amanda.lima@email.com",
+      "telefone_responsavel": "(11) 99999-4001",
+      "responsavel_nome": "Amanda Lima"
+    },
+    {
+      "id_alunos": "017",
+      "nome_do_aluno": "Queila Costa",
+      "serie": "4º Ano",
+      "email_responsavel": "gustavo.costa@email.com",
+      "telefone_responsavel": "(11) 99999-4002",
+      "responsavel_nome": "Gustavo Costa"
+    },
+    {
+      "id_alunos": "018",
+      "nome_do_aluno": "Rodrigo Silva",
+      "serie": "4º Ano",
+      "email_responsavel": "patricia.silva@email.com",
+      "telefone_responsavel": "(11) 99999-4003",
+      "responsavel_nome": "Patrícia Silva"
+    },
+    {
+      "id_alunos": "019",
+      "nome_do_aluno": "Sofia Oliveira",
+      "serie": "4º Ano",
+      "email_responsavel": "felipe.oliveira@email.com",
+      "telefone_responsavel": "(11) 99999-4004",
+      "responsavel_nome": "Felipe Oliveira"
+    },
+    {
+      "id_alunos": "020",
+      "nome_do_aluno": "Thiago Ferreira",
+      "serie": "4º Ano",
+      "email_responsavel": "juliana.ferreira@email.com",
+      "telefone_responsavel": "(11) 99999-4005",
+      "responsavel_nome": "Juliana Ferreira"
+    },
+    {
+      "id_alunos": "021",
+      "nome_do_aluno": "Ursula Rodrigues",
+      "serie": "5º Ano",
+      "email_responsavel": "fabio.rodrigues@email.com",
+      "telefone_responsavel": "(11) 99999-5001",
+      "responsavel_nome": "Fábio Rodrigues"
+    },
+    {
+      "id_alunos": "022",
+      "nome_do_aluno": "Vitor Martins",
+      "serie": "5º Ano",
+      "email_responsavel": "sandra.martins@email.com",
+      "telefone_responsavel": "(11) 99999-5002",
+      "responsavel_nome": "Sandra Martins"
+    },
+    {
+      "id_alunos": "023",
+      "nome_do_aluno": "Wanda Santos",
+      "serie": "5º Ano",
+      "email_responsavel": "roberto.santos@email.com",
+      "telefone_responsavel": "(11) 99999-5003",
+      "responsavel_nome": "Roberto Santos"
+    },
+    {
+      "id_alunos": "024",
+      "nome_do_aluno": "Xavier Lima",
+      "serie": "5º Ano",
+      "email_responsavel": "cristina.lima@email.com",
+      "telefone_responsavel": "(11) 99999-5004",
+      "responsavel_nome": "Cristina Lima"
+    },
+    {
+      "id_alunos": "025",
+      "nome_do_aluno": "Yasmin Costa",
+      "serie": "5º Ano",
+      "email_responsavel": "leonardo.costa@email.com",
+      "telefone_responsavel": "(11) 99999-5005",
+      "responsavel_nome": "Leonardo Costa"
+    }
+  ],
+  "eventos_calendario": [
+    {
+      "id": "evt001",
+      "titulo": "Reunião de Pais - 1º Ano",
+      "data": "2025-08-20",
+      "horario": "19:00",
+      "descricao": "Reunião para apresentação do cronograma escolar",
+      "series": ["1º Ano"]
+    },
+    {
+      "id": "evt002",
+      "titulo": "Prova de Matemática",
+      "data": "2025-08-25",
+      "horario": "08:00",
+      "descricao": "Avaliação bimestral de matemática",
+      "series": ["2º Ano", "3º Ano"]
+    },
+    {
+      "id": "evt003",
+      "titulo": "Feira de Ciências",
+      "data": "2025-09-05",
+      "horario": "14:00",
+      "descricao": "Apresentação dos projetos científicos",
+      "series": ["4º Ano", "5º Ano"]
+    },
+    {
+      "id": "evt004",
+      "titulo": "Entrega de Boletins",
+      "data": "2025-09-10",
+      "horario": "18:00",
+      "descricao": "Entrega dos boletins do 2º bimestre",
+      "series": ["1º Ano", "2º Ano", "3º Ano", "4º Ano", "5º Ano"]
+    }
+  ],
+  "mensagens_predefinidas": [
+    {
+      "id": "msg001",
+      "titulo": "Lembrete de Reunião",
+      "template": "Olá [NOME_DO_ALUNO], lembramos que haverá uma reunião de pais no dia [DATA]. Sua presença é importante para o acompanhamento escolar."
+    },
+    {
+      "id": "msg002",
+      "titulo": "Comunicado de Prova",
+      "template": "Prezado responsável, informamos que [NOME_DO_ALUNO] terá uma avaliação no dia [DATA]. Orientamos o estudo em casa para melhor desempenho."
+    },
+    {
+      "id": "msg003",
+      "titulo": "Convite para Evento",
+      "template": "Convidamos [NOME_DO_ALUNO] e sua família para participar do evento escolar que acontecerá no dia [DATA]. Será um momento especial de confraternização."
+    },
+    {
+      "id": "msg004",
+      "titulo": "Comunicado Geral",
+      "template": "Prezado responsável de [NOME_DO_ALUNO], gostaríamos de informar sobre importantes atualizações relacionadas ao cronograma escolar."
+    },
+    {
+      "id": "msg005",
+      "titulo": "Ausência Escolar",
+      "template": "Notamos a ausência de [NOME_DO_ALUNO] nas aulas. Solicitamos justificativa e orientamos sobre a importância da frequência escolar."
+    }
+  ],
+  "mensagens_enviadas": []
+}
