@@ -23,9 +23,7 @@ export default function Welcome() {
         <div className="flex justify-center">
           <Card className="w-full max-w-lg shadow-elevated border-0">
             <CardHeader className="text-center pb-4">
-              <div className="w-16 h-16 bg-edu-primary-light rounded-full flex items-center justify-center mx-auto mb-4">
-                <GraduationCap className="w-8 h-8 text-primary" />
-              </div>
+              
               <h3 className="text-2xl font-bold text-foreground">Sou Docente</h3>
               <p className="text-muted-foreground">
                 Mantenha-se conectado com o Cronograma Escolar
