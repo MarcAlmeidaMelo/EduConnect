@@ -47,19 +47,28 @@ export default function CalendarPage() {
             <CardHeader>
               <div className="flex items-center justify-between">
                 <CardTitle className="text-xl">Calendário</CardTitle>
-                
               </div>
             </CardHeader>
-            <CardContent>
-              <Calendar mode="single" selected={selectedDate} onSelect={setSelectedDate} month={currentMonth} onMonthChange={setCurrentMonth} className="w-full" modifiers={{
-              eventDay: events.map(event => new Date(event.data))
-            }} modifiersStyles={{
-              eventDay: {
-                backgroundColor: 'hsl(var(--primary))',
-                color: 'hsl(var(--primary-foreground))',
-                borderRadius: '8px'
-              }
-            }} />
+            <CardContent className="flex justify-center">
+              <Calendar 
+                mode="single" 
+                selected={selectedDate} 
+                onSelect={setSelectedDate} 
+                month={currentMonth} 
+                onMonthChange={setCurrentMonth} 
+                className="w-fit mx-auto" 
+                modifiers={{
+                  eventDay: events.map(event => new Date(event.data + 'T00:00:00'))
+                }} 
+                modifiersStyles={{
+                  eventDay: {
+                    backgroundColor: 'hsl(var(--primary))',
+                    color: 'hsl(var(--primary-foreground))',
+                    borderRadius: '8px',
+                    fontWeight: 'bold'
+                  }
+                }} 
+              />
             </CardContent>
           </Card>
 
