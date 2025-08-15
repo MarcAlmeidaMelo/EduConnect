@@ -2,12 +2,9 @@ import { GraduationCap, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
-
 export default function Welcome() {
   const navigate = useNavigate();
-
-  return (
-    <div className="min-h-screen bg-edu-gray-50 flex items-center justify-center p-4">
+  return <div className="min-h-screen bg-edu-gray-50 flex items-center justify-center p-4">
       <div className="w-full max-w-4xl">
         {/* Header */}
         <div className="text-center mb-12">
@@ -18,9 +15,7 @@ export default function Welcome() {
             <h1 className="text-2xl font-bold text-primary">EduConnect</h1>
           </div>
           
-          <h2 className="text-4xl font-bold text-foreground mb-4">
-            Bem-vindo ao <span className="text-primary">ProjectEduConnect</span>
-          </h2>
+          
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Plataforma de gestão escolar que conecta famílias e educadores em um ambiente 
             seguro e intuitivo.
@@ -55,16 +50,12 @@ export default function Welcome() {
                 </div>
               </div>
               
-              <Button 
-                onClick={() => navigate("/login")}
-                className="w-full h-12 text-base font-medium mt-6"
-              >
+              <Button onClick={() => navigate("/login")} className="w-full h-12 text-base font-medium mt-6">
                 Acessar
               </Button>
             </CardContent>
           </Card>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 }
