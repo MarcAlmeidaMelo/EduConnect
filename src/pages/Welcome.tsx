@@ -24,9 +24,8 @@ export default function Welcome() {
           <Card className="w-full max-w-lg shadow-elevated border-0">
             <CardHeader className="text-center pb-4">
               
-              <h3 className="text-2xl font-bold text-foreground">Sou Docente</h3>
+              <h3 className="text-2xl font-bold text-foreground"
               <p className="text-muted-foreground">
-                Mantenha-se conectado com o Cronograma Escolar
               </p>
             </CardHeader>
             <CardContent className="space-y-4">
