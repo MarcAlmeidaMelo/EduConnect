@@ -19,7 +19,7 @@ export default function Welcome() {
           </div>
           
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Bem-vindo ao <span className="text-primary">EduConnect</span>
+            Bem-vindo ao <span className="text-primary">ProjectEduConnect</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Plataforma de gestão escolar que conecta famílias e educadores em um ambiente 
