@@ -16,10 +16,7 @@ export default function Welcome() {
           </div>
           
           
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Plataforma de gestão escolar que conecta famílias e educadores em um ambiente 
-            seguro e intuitivo.
-          </p>
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">Um ambiente seguro e intuitivo que conecta famílias e educadores.</p>
         </div>
 
         {/* Teacher Access Card */}
