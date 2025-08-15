@@ -23,9 +23,6 @@ export default function Welcome() {
         <div className="flex justify-center">
           <Card className="w-full max-w-lg shadow-elevated border-0">
             <CardHeader className="text-center pb-4">
-              
-              <h3 className="text-2xl font-bold text-foreground"
-              <p className="text-muted-foreground">
               </p>
             </CardHeader>
             <CardContent className="space-y-4">
