@@ -88,33 +88,24 @@ export default function CommunicationPage() {
     setIsLoading(true);
     try {
       const processedMessage = processMessage(messageTemplate.template, student.nome_do_aluno, selectedDate);
+      // Estrutura flat para n8n - cada campo como card individual
       const payload = {
         timestamp: new Date().toISOString(),
-        escola: {
-          nome: "EduConnect School",
-          sistema: "ProjectEduConnect"
-        },
-        aluno: {
-          id: student.id_alunos,
-          nome: student.nome_do_aluno,
-          serie: student.serie
-        },
-        responsavel: {
-          nome: student.responsavel_nome,
-          email: student.email_responsavel,
-          telefone: student.telefone_responsavel
-        },
-        mensagem: {
-          conteudo: processedMessage,
-          template_original: messageTemplate.template,
-          data_evento: selectedDate ? format(selectedDate, "yyyy-MM-dd") : null
-        },
-        metadados: {
-          usuario_sistema: "Professor",
-          canal_envio: ["email", "whatsapp"],
-          prioridade: "normal",
-          categoria: "comunicacao_escolar"
-        }
+        escola_nome: "EduConnect School",
+        escola_sistema: "ProjectEduConnect",
+        aluno_id: student.id_alunos,
+        aluno_nome: student.nome_do_aluno,
+        aluno_serie: student.serie,
+        responsavel_nome: student.responsavel_nome,
+        responsavel_email: student.email_responsavel,
+        responsavel_telefone: student.telefone_responsavel,
+        mensagem_conteudo: processedMessage,
+        mensagem_template_original: messageTemplate.template,
+        mensagem_data_evento: selectedDate ? format(selectedDate, "yyyy-MM-dd") : null,
+        metadados_usuario_sistema: "Professor",
+        metadados_canal_envio: ["email", "whatsapp"],
+        metadados_prioridade: "normal",
+        metadados_categoria: "comunicacao_escolar"
       };
 
       // Send to webhook
